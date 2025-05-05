@@ -1,0 +1,11 @@
+services:
+  app:
+    image: myapp:latest
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    command:  tail -f /dev/null
+    ports:
+      - "5000:80"
+    volumes:
+      - ./:/project
