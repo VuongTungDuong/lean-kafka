@@ -5,7 +5,7 @@
 Kafka và Zookeeper
 
 ```bash
-docker compose -f dokcer-kafka-sever.yaml
+docker compose -f docker-kafka-sever.yaml
 ```
 
 ## types-confluent-kafka hỗ trợ gợi ý kiểu dữ liệu của confluent-kafka
